@@ -1,0 +1,6 @@
+export  {default as jwt} from './jwt_05 .jpg'
+export {default as promo1} from './promo1.jpg'
+export {default as promo2} from './promo2.png'
+export {default as cash} from './cash.png'
+export { default as contact} from './contact.png'
+export { default as calculator} from './calculators.png'

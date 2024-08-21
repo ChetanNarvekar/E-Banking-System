@@ -1,0 +1,12 @@
+.main-dashboard {
+    top : 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.dashboard-button {
+    width: 200px;
+}

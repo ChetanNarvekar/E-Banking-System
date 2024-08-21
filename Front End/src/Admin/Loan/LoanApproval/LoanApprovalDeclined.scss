@@ -1,0 +1,60 @@
+// LoanRequests.scss
+
+// Container styling
+.loan-requests-container {
+  padding: 20px;
+  background-color: #f5f5f5; // Light gray background
+}
+
+// Card styling
+.MuiCard-root {
+  background-color: #ffffff; // White background
+  border-radius: 8px; // Rounded corners
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow
+}
+
+// Table container styling
+.MuiTableContainer-root {
+  max-height: 500px; // Limit the height of the table
+}
+
+// Table styling
+.MuiTable-root {
+  min-width: 1180px; // Ensure table width matches card
+  border-collapse: collapse; // Remove spacing between cells
+}
+
+// Table header styling
+.MuiTableHead-root {
+  background-color: #e0e0e0; // Light gray background for header
+}
+
+.MuiTableCell-head {
+  font-weight: bold; // Bold text for headers
+  text-align: center; // Center text alignment
+}
+
+// Table cell styling
+.MuiTableCell-root {
+  padding: 12px; // Add padding inside cells
+  text-align: center; // Center text alignment
+}
+
+// Action buttons styling
+.MuiButton-root {
+  text-transform: none; // Remove uppercase text transformation
+  font-size: 14px; // Smaller font size for buttons
+}
+
+// Button spacing
+.MuiButton-root + .MuiButton-root {
+  margin-left: 8px; // Space between buttons
+}
+
+// No content available styling
+.no-content {
+  padding: 20px; // Add padding around no content message
+  text-align: center; // Center the message
+  font-size: 16px; // Larger font size for readability
+  color: #757575; // Gray color for the text
+}

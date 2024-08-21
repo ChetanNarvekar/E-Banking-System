@@ -1,0 +1,257 @@
+24-08-10 00:04:56.375 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final 
+24-08-10 00:04:56.386 [restartedMain] INFO  com.app.Application - Starting Application using Java 17.0.11 on Chetan with PID 10236 (C:\Users\can07\OneDrive\Documents\GitHub\EBank\E_BANK\target\classes started by can07 in C:\Users\can07\OneDrive\Documents\GitHub\EBank\E_BANK) 
+24-08-10 00:04:56.388 [restartedMain] INFO  com.app.Application - No active profile set, falling back to 1 default profile: "default" 
+24-08-10 00:04:56.436 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+24-08-10 00:04:56.436 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+24-08-10 00:04:57.394 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+24-08-10 00:04:57.506 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 11 JPA repository interfaces. 
+24-08-10 00:04:58.087 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+24-08-10 00:04:58.096 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+24-08-10 00:04:58.100 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+24-08-10 00:04:58.101 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83] 
+24-08-10 00:04:58.224 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+24-08-10 00:04:58.225 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1787 ms 
+24-08-10 00:04:58.389 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+24-08-10 00:04:58.473 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final 
+24-08-10 00:04:58.646 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+24-08-10 00:04:58.738 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+24-08-10 00:04:58.888 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+24-08-10 00:04:58.903 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+24-08-10 00:04:59.080 [restartedMain] WARN  o.h.b.i.InFlightMetadataCollectorImpl - HHH000069: Duplicate generator name acc_seq 
+24-08-10 00:05:00.018 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+24-08-10 00:05:00.032 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+24-08-10 00:05:01.606 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+24-08-10 00:05:01.632 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+24-08-10 00:05:01.700 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+24-08-10 00:05:01.715 [restartedMain] INFO  com.app.Application - Started Application in 5.837 seconds (JVM running for 6.567) 
+24-08-10 00:06:39.430 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+24-08-10 00:06:39.430 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+24-08-10 00:06:39.446 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms 
+24-08-10 00:06:39.651 [http-nio-8080-exec-3] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:06:39.651 [http-nio-8080-exec-3] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:17.571 [http-nio-8080-exec-4] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:17.571 [http-nio-8080-exec-4] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:17.909 [http-nio-8080-exec-2] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:17.913 [http-nio-8080-exec-2] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:18.307 [http-nio-8080-exec-6] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:18.307 [http-nio-8080-exec-6] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:18.642 [http-nio-8080-exec-5] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:18.642 [http-nio-8080-exec-5] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:18.916 [http-nio-8080-exec-9] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:18.920 [http-nio-8080-exec-9] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:19.261 [http-nio-8080-exec-8] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:19.261 [http-nio-8080-exec-8] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:19.598 [http-nio-8080-exec-7] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:19.598 [http-nio-8080-exec-7] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:20.617 [http-nio-8080-exec-10] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:20.617 [http-nio-8080-exec-10] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:20.927 [http-nio-8080-exec-3] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:20.935 [http-nio-8080-exec-3] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:21.167 [http-nio-8080-exec-1] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:21.167 [http-nio-8080-exec-1] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:42.744 [http-nio-8080-exec-2] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:42.745 [http-nio-8080-exec-2] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:43.019 [http-nio-8080-exec-6] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:43.019 [http-nio-8080-exec-6] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:43.295 [http-nio-8080-exec-5] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:43.295 [http-nio-8080-exec-5] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:43.524 [http-nio-8080-exec-9] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:43.525 [http-nio-8080-exec-9] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:43.791 [http-nio-8080-exec-8] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:43.791 [http-nio-8080-exec-8] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:44.070 [http-nio-8080-exec-7] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:44.071 [http-nio-8080-exec-7] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:44.342 [http-nio-8080-exec-10] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:44.342 [http-nio-8080-exec-10] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:44.553 [http-nio-8080-exec-3] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:44.554 [http-nio-8080-exec-3] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:44.794 [http-nio-8080-exec-1] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:44.794 [http-nio-8080-exec-1] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:45.105 [http-nio-8080-exec-4] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:45.106 [http-nio-8080-exec-4] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:45.334 [http-nio-8080-exec-2] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:45.334 [http-nio-8080-exec-2] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:45.608 [http-nio-8080-exec-6] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:45.609 [http-nio-8080-exec-6] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:45.834 [http-nio-8080-exec-5] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:45.835 [http-nio-8080-exec-5] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:46.113 [http-nio-8080-exec-9] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:46.114 [http-nio-8080-exec-9] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:46.226 [http-nio-8080-exec-8] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:46.226 [http-nio-8080-exec-8] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:46.396 [http-nio-8080-exec-7] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:46.397 [http-nio-8080-exec-7] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:46.582 [http-nio-8080-exec-10] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:46.582 [http-nio-8080-exec-10] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:46.704 [http-nio-8080-exec-3] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:46.704 [http-nio-8080-exec-3] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:09:46.880 [http-nio-8080-exec-1] INFO  c.a.l.c.LoanCollateralController - Loan Details Added 
+24-08-10 00:09:46.880 [http-nio-8080-exec-1] DEBUG c.a.l.c.LoanCollateralController - loan debug 
+24-08-10 00:12:41.203 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final 
+24-08-10 00:12:41.211 [restartedMain] INFO  com.app.Application - Starting Application using Java 17.0.11 on Chetan with PID 15476 (C:\Users\can07\OneDrive\Documents\GitHub\EBank\E_BANK\target\classes started by can07 in C:\Users\can07\OneDrive\Documents\GitHub\EBank\E_BANK) 
+24-08-10 00:12:41.212 [restartedMain] INFO  com.app.Application - No active profile set, falling back to 1 default profile: "default" 
+24-08-10 00:12:41.259 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+24-08-10 00:12:41.259 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+24-08-10 08:55:11.884 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed 
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.app.Application.main(Application.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:189)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:170)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:243)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 23 common frames omitted
+
+	
+	<minIndex>1</minIndex>
+            <maxIndex>10</maxIndex>
+                <include resource="org/springframework/boot/logging/logback/console.appender.xml"/>
+            
+            
+24-08-10 08:57:02.769 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed 
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.app.Application.main(Application.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:189)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:170)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:243)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 23 common frames omitted
+24-08-10 08:58:03.203 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed 
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.app.Application.main(Application.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:189)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:170)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:243)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 23 common frames omitted
+24-08-11 11:04:43.574 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed 
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:171)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:145)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.app.Application.main(Application.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:26 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:25 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:189)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:170)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:243)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 23 common frames omitted

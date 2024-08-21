@@ -1,0 +1,52 @@
+.sidebar-wrapper {
+  //position : absolute;
+  width: 20%;
+  //top: 24.2vh;
+  display: flex;
+  flex-direction: column;
+ 
+  .buttons-header {
+    background-color: #bbb2eb;
+    height: 4vh;
+    width: 100%;
+    //text-align: left;
+    font-weight: 500;
+     align-content: center;
+  }
+
+  .buttons-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    button {
+      height: 6vh;
+      border-radius: 0px;
+      background-color: #f0f8ff;
+      border: none;
+      // width: 200px;
+      text-align: left;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d9d9d9;
+    }
+  }
+
+  .buttons-section{
+    justify-content: center;
+  }
+
+  // .sidebar-button{
+  //   justify-content: center;
+  //   justify-items: center;
+  //   align-items: center;
+  // }
+
+  .sidebar-advertisement {
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 17vh;
+  }
+}

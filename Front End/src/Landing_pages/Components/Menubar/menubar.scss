@@ -1,0 +1,95 @@
+:root {
+  // /* Backgrounds */
+  --header-background: #534891;
+  /* Colors */
+  --primary-text-color: white;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menubar {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-menu img {
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.logo-text {
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: small;
+  color: skyblue;
+}
+
+.mid-menu {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service-tags {
+  margin-left: 0.3vw;
+  width: 7.5vw;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.login-button {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.service-tags:hover {
+  text-decoration: underline;
+  color: rgb(124, 180, 180);
+  transition-duration: 1s;
+}
+
+.right-menu-date {
+  font-size: 12px;
+}
+
+.right-menu-time {
+  font-size: 12px;
+}

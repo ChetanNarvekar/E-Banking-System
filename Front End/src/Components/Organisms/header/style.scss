@@ -1,0 +1,56 @@
+:root {
+  /* Backgrounds */
+  --primary-background: #ffc55a;
+  /* Colors */
+  --primary-text-color: #776e65;
+}
+
+.header-wrapper {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--primary-background);
+  height: 8.5%;
+
+
+  .header-left-wrapper {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    .header-bank-logo-img {
+      height: 35px;
+      width: 45px;
+      margin: 10px 0px 10px 25px;
+    }
+  }
+  .header-right-wrapper {
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+    gap: 15px;
+
+    .header-right-text-box{
+      border-right: 1px solid black;
+      padding: 0px 20px 0px 10px;
+      color: black;
+    }
+
+    .nav-tabs{
+      text-decoration: none;
+    }
+    .header-home-logo-img {
+      height: 25px;
+      width: 45px;
+      margin: 10px 10px 10px 0px;
+    }
+    .header-rewards-logo-img {
+      height: 35px;
+      width: 45px;
+      margin: 10px 0px 10px 0px;
+    }
+
+
+  }
+}

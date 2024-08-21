@@ -1,0 +1,15 @@
+:root {
+  // /* Backgrounds */
+  // --primary-background:  #efba59;
+  /* Colors */
+  --primary-text-color: aliceblue;
+}
+.header-person-login {
+  position: relative;
+  background-color: var(--primary-text-color);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

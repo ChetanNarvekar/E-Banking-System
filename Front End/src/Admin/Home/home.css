@@ -1,0 +1,97 @@
+/* home.css */
+
+.home-container {
+    background-color: #eaebf8; /* Black background */
+    color: #fff; /* White text */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff; /* White text */
+  }
+  
+  .home-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .home-option, .admin-home-option {
+    background-color: #333; /* Dark grey background for buttons */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .home-option:hover, .admin-home-option:hover {
+    background-color: #555; /* Lighter grey on hover */
+  }
+  
+  .home-option span, .admin-home-option span {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .admin-home-option {
+    background-color: #444; /* Slightly different grey for admin button */
+  }
+  
+  .admin-home-option:hover {
+    background-color: #666; /* Lighter grey on hover for admin button */
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    background-color: #333; /* Dark grey background for modal */
+    color: #fff; /* White text */
+  }
+  
+  .modal-header, .modal-footer {
+    border-bottom: 1px solid #444; /* Darker border for header and footer */
+  }
+  
+  .modal-header .close {
+    color: #fff; /* White close button */
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #555; /* Dark grey button */
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #666; /* Lighter grey on hover */
+  }
+  
+  .modal-footer .btn-dark {
+    background-color: #000; /* Black button */
+    border: none;
+  }
+  
+  .modal-footer .btn-dark:hover {
+    background-color: #333; /* Darker grey on hover */
+  }
+  
+  /* General form styles */
+  .form-control-home {
+    background-color: #444; /* Dark grey background for form controls */
+    color: #fff; /* White text */
+    border: 1px solid #555; /* Border color */
+  }
+  
+  .form-control::placeholder {
+    color: #aaa; /* Light grey placeholder text */
+  }
+  

@@ -1,0 +1,25 @@
+.fund-transfer{
+    display: flex;
+    gap: 80px;
+    width: 80%;
+    flex-direction: column;
+    background-color: #eaebf8;
+    .fund-transfer-header{
+        background-color: white;
+        height: 4vh;
+
+       
+    }
+    .fund-transfer-operations{
+        display: flex;
+        background-color: #7264c4;
+        height: 6vh;
+        flex-direction: row;
+        /* text-align: center; */
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        justify-content: space-evenly;
+        
+    }
+}

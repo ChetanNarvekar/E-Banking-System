@@ -1,0 +1,59 @@
+.fd-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #eaebf8;
+  width: 80%;
+  .fd-wrapper-header {
+    background-color: white;
+    height: 4vh;
+  }
+  .form-options-wrapper {
+    position: relative;
+    top: 20px;
+    padding-left: 2vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20vh;
+
+    .form-options-left-wrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: 3vh;
+      justify-content: space-around;
+     
+      text-align: left;
+      .required:after {
+        content: " *";
+        color: red;
+      }
+    }
+    .form-options-right-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      row-gap: 3vh;
+      align-items: baseline;
+    }
+  }
+  .conditions{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vh;
+  }
+  .fd-button{
+    gap: 100px;
+    top: 10vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vh;
+    .button{
+        background-color: orange;
+        border-radius: 1vh;
+        align-content: center;
+    }
+
+  }
+}

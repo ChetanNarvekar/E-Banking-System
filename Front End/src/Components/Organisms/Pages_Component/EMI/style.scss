@@ -1,0 +1,71 @@
+.loan-details-container {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh; // Ensure the container takes up the full height of the viewport
+    background-size: cover; // Cover the entire container
+    background-position: center; // Center the background image
+
+    .loan-details-card {
+        margin-top: 75px;
+        background-color: rgba(255, 255, 255, 0.9); // Slightly opaque white background for better readability
+        padding: 20px; // Add padding inside the card
+        border-radius: 10px; // Rounded corners for the card
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Subtle shadow for depth
+        max-width: 500px; // Limit the width of the card
+        margin-left: auto; // Center horizontally
+        margin-right: auto; // Center horizontally
+
+        .loan-details-content {
+            margin-bottom: 20px; // Space between content and actions
+            display: flex;
+            flex-direction: column;
+            gap: 15px; // Space between input fields
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                gap: 5px; // Space between label and input
+                label {
+                    color: black; // Label color
+                }
+                input {
+                    border: 1px solid black; // Black border for the input
+                    color: black; // Black text color inside the input
+                    background-color: white; // White background for input
+                    padding: 10px; // Padding inside the input
+                    border-radius: 5px; // Rounded corners for the input
+                }
+                input::placeholder {
+                    color: black; // Black color for the placeholder text
+                }
+            }
+        }
+
+        .loan-details-actions {
+            display: flex;
+            justify-content: space-between; // Space out the buttons
+            gap: 15px;
+            button {
+                padding: 10px 20px; // Padding inside the buttons
+                border: none;
+                border-radius: 5px; // Rounded corners for the buttons
+                color: white; // White text color
+                cursor: pointer; // Pointer cursor on hover
+                transition: background-color 0.3s; // Smooth transition for hover effect
+
+                &.btn-primary {
+                    background-color: #007bff; // Primary button background color
+                    &:hover {
+                        background-color: #0056b3; // Darker color on hover
+                    }
+                }
+
+                &.btn-secondary {
+                    background-color: #6c757d; // Secondary button background color
+                    &:hover {
+                        background-color: #5a6268; // Darker color on hover
+                    }
+                }
+            }
+        }
+    }
+}

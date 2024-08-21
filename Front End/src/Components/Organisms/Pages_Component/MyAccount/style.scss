@@ -1,0 +1,40 @@
+.account-operation {
+  background-color: #eaebf8;
+  position: relative;
+  justify-content: space-around;
+  //left: 200px;
+  //top: -600px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow:hidden;
+  width: 80%;
+  //height: 75vh;
+  padding: 50px;
+  white-space: inherit;;
+  
+  .logo-myacccount{
+    height: 45px;
+    width: 45px;
+    margin: 10%;
+  }
+
+  .text-flex{
+    //display: flex;
+  }
+
+   .anchor-tag{
+    display: inline-block;
+    width: 100px;
+    white-space: pre;
+   }
+  
+   .left{
+        align-items:center;
+        justify-self: start;
+   }
+
+}
+.middle-content-wrapper{
+  height: 79vh;
+  
+}

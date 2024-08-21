@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background: url('../../../../Assets/Login1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper1 {
+  margin-left: 500px;
+  background: transparent;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40vw; /* Reduced size of the login box */
+  max-width: 100%;
+}
+
+.logo1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo1 img {
+  width: 80px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-box .icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.captcha-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.captcha-box {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.captcha-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #007bff;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

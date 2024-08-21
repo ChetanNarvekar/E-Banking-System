@@ -1,0 +1,75 @@
+
+.loan-list-container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+/* Pagination styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.pagination button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  background-color: #0056b3;
+}
+
+/* Search bar styling */
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.MuiInputBase-input {
+  padding: 8px;
+}
+.no-content {
+  text-align: center;
+  font-weight: bold;
+  color: #888; /* Grey color for the text */
+  padding: 16px;
+}
+
+  

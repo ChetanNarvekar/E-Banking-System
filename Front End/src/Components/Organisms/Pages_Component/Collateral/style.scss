@@ -1,0 +1,112 @@
+.collateral-wrapper-container
+{
+  width:80%;
+  background-color: #eaebf8;
+}
+
+
+.collateral-container {
+  max-width: 900px; /* Increase width for better layout */
+  margin:auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.collateral-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Space between columns and rows */
+  align-items: start; /* Align items to the start of the grid cell */
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    label {
+      font-weight: 600;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        border-color: #4caf50;
+        outline: none;
+      }
+    }
+
+    textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  }
+
+  .form-group-checkbox {
+    grid-column: span 2; /* Make the checkbox span across both columns */
+    display: flex;
+    align-items: center;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  }
+
+  .form-buttons {
+    grid-column: span 2; /* Make buttons span across both columns */
+    display: flex;
+    justify-content: space-between; /* Align buttons to edges */
+    gap: 10px;
+
+    .submit-btn,
+    .back-btn {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      flex: 1; /* Make buttons take full available width */
+    }
+
+    .submit-btn {
+      background-color: #4caf50;
+      color: #fff;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+
+    .back-btn {
+      background-color: #f44336;
+      color: #fff;
+
+      &:hover {
+        background-color: #e53935;
+      }
+    }
+  }
+}

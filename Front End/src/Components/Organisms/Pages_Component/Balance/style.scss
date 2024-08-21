@@ -1,0 +1,46 @@
+.balance {
+    background-color: #eaebf8;
+    width: 100%;
+    min-height: 78.5vh; // Ensure the container takes up the full height of the viewport
+   
+    background-size: cover; // Cover the entire container
+    background-position: center; // Center the background image
+
+    .wrapper {
+        margin-top: 75px;
+        background-color: rgba(255, 255, 255, 0.9); // Slightly opaque white background for better readability
+        padding: 20px; // Add padding inside the wrapper
+        border-radius: 10px; // Optional: rounded corners for the wrapper
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Optional: subtle shadow for depth
+        max-width: 400px; // Limit the width of the form
+        margin-left: auto; // Center horizontally
+        margin-right: auto; // Center horizontally
+    }
+
+    .input-box {
+        margin-bottom: 20px; // Space between input and buttons
+        input {
+            border: 1px solid black; // Black border for the input
+            color: black; // Black text color inside the input
+            background-color: white; // White background for input
+        }
+
+        input::placeholder {
+            color: black; // Black color for the placeholder text
+        }
+    }
+
+    .input-box input::placeholder {
+        color: orange;
+        border-color: black;
+    }
+
+    .tpin-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 25px;
+    }
+    h4{
+        color: black;
+    }
+}

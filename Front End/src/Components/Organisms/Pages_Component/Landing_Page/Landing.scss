@@ -1,0 +1,321 @@
+
+
+:root {
+    // /* Backgrounds */
+    --header-background: #534891;
+    /* Colors */
+    --primary-text-color: aliceblue;
+  }
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+// Header Starts Here 
+
+.header{
+    display: flex;
+    background-color: var(--header-background);
+    justify-content: space-evenly;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap:10%;
+}
+
+.header-links{
+    color: white;
+}
+
+.header-text h6{
+    margin-left: 35px;
+    cursor: pointer;
+}
+// .account-create{
+//     // border: none;
+// }
+
+.header-text h6:hover{
+    text-decoration: underline;
+}
+
+.account-create button{
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    display: flex;
+    padding-left: 250px;
+    text-decoration: underline;
+    
+}
+
+// Header Ends here
+
+// First Header Starts Here
+
+.header{
+    display: flex;
+    background-color: var(--header-background);
+    justify-content: space-evenly;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap:10%;
+}
+
+.header-links{
+    color: white;
+}
+
+.header-text h6{
+    margin-left: 35px;
+    cursor: pointer;
+}
+// .account-create{
+//     // border: none;
+// }
+
+.header-text h6:hover{
+    text-decoration: underline;
+}
+
+.account-create button{
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    display: flex;
+    padding-left: 250px;
+    text-decoration: underline;
+    
+}
+
+// First Header Ends Here
+
+
+// Wrapper Header Starts Here 
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+// Left Wrapper Here 
+
+.left-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+.left-wrapper img{
+    height: 55px;
+    width: 95px;
+    border-radius: 30px;
+}
+
+.logo-text{
+    margin-left: 15px;;
+}
+
+// Left Wrapper Ends here
+
+// Middle Of Wrapper Starts Here 
+
+.mid-wrapper{
+    align-items: center;
+    width: 70%;
+}
+
+.services{
+    display: flex;
+}
+
+.service-tags{
+    margin-right: 65px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+// Middle Of Wrapper Ends Here 
+
+// Right Wrapper Starts Here
+
+.right-wrapper{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    // background-color: red;
+}
+
+.login-button h4{
+    justify-content: center;
+    border-radius: 5px ;
+    width: 50px;
+    height: 30%;
+    margin-top: 15px;
+    background-color: red;
+    padding: 10px;
+}
+
+// right wrapper ends here
+// Wrapper Header Ends here 
+
+
+// Promo Section Starts Here
+
+.promo{
+    background-image: url(../../../../Assets/promo2.png);
+    height: 60vh;
+    width: 100%;
+}
+
+.display-left{
+    position: absolute;
+    top: 42%;
+    left: 3%;
+}
+
+.display-right{
+    position: absolute;
+    top: 42%;
+    right: 3%;
+}
+
+.promotext{
+    position: absolute;
+    left: 70px;
+    top: 25%;
+    color: white;
+    width: 100%;;
+}
+
+.promotext h1{
+    position: absolute;
+    left: 7%;
+}
+
+.promotext h3{
+    position: absolute;
+    top: 7vh;
+    left: 10%;
+}
+
+.promotext h4{
+    position: absolute;
+    top: 12vh;
+    left: 12%;
+}
+
+.promotext h5{
+    position: absolute;
+    top: 18vh;
+    left: 21%;
+    font-weight: 200;
+}
+
+.promotext button{
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    position: absolute;
+    top: 19vh;
+    left: 15%;
+}
+// Promo Section Ends Here
+
+// Facilities Section Starts here
+
+.facilities{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+
+.facility{
+    background-color: #f1f1f2;
+    padding: 50px;
+    border-radius: 5px;
+    padding-left: 125px;
+    padding-right: 125px;
+    height: 24vh;
+    padding-bottom: 75px;
+}
+
+.ContactUs img{
+    height: 50px;
+    width: 50px;
+}
+// Facility Section Ends Here
+
+// Footer Section Starts Here 
+.Footer{
+    background-color: var(--header-background);
+    height: 25vh;
+}
+
+.Footer-first-div{
+    display : flex;
+}
+
+.logo-and-name{
+    display: flex;
+}
+
+.logo-and-name img{
+    height: 55px;
+    width: 95px;
+    border-radius: 5px;
+    position: absolute;
+    left: 5%;
+    padding-top: 25px;
+}
+
+.logo-and-name a{
+    position: absolute;
+    left: 12%;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.quick-footer{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    margin-top: 25px;
+}
+
+.quick-footer a{
+    margin-left: 4%;
+    color: white;
+    width: 100px;
+}
+.footer-bank-description{
+    padding-left: 4%;
+    position: relative;
+    top: 15vh;
+    text-align: left;
+    font-size: small;
+    color: white;
+}
+// Footer Section Ends Here
